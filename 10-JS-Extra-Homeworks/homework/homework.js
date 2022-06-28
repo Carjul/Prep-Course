@@ -20,21 +20,19 @@ function numberOfCharacters(str) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
-
-  let caracteres = [... new Set(str.toLowerCase())]
-
   for(var i=0; i<caracteres.length; i++){
-      let arreglo=[]
-      str.split('').map(n => {
-          if(n.toLowerCase() === caracteres[i]){
-              arreglo.push(n)
-          } 
-          
-      })
-     
-      console.log(`${caracteres[i]}: ${arreglo.length}`)
-  }
 
+    let arreglo=[]
+    let arreglo2=[]
+    caracteres.split('').map(n => {
+        if(n.toLowerCase() === caracteres[i]){
+            arreglo.push(n)
+        } 
+        
+    })
+    
+    console.log(caracteres[i]+':'+arreglo.length)
+}
 
 }
 

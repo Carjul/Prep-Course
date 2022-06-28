@@ -19,7 +19,7 @@ I. Cree una página HTML básica.
       * un elemento 'a' que se vincula a su restaurante favorito.
     3. En el tercer div crea:
       * una lista desordenada con dos elementos dentro de la lista
-      * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").
+      * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg"). 
 ```
 
 ```

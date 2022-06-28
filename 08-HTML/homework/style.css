@@ -1,0 +1,25 @@
+
+body{
+    flex-direction: column-reverse;
+    text-align: center;
+    background-image: url(http://cdn29.us1.fansshare.com/pictures/1024x768/paisaje-de-flores-1258943455.jpg)}
+h1{
+    color: burlywood;
+}
+#thirdDiv{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(222, 137, 33);
+    padding: 50px;
+    border: solid 1px skyblue;
+    margin:5% 25% 25% 30%;
+}
+
+img{
+    width: 400px;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
