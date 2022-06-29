@@ -65,19 +65,11 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-var m = []
-var r=null;
-for (let i = 0; i < str.length; i++) {
-  
-  if (str[i]===str[i]) {
- 
-    m.unshift(str[i])
-  }
- 
-r=m.join('') ;
-}
-
-return r
+  var espejo = '';
+  for(let i = str.length -1; i >= 0; i--) {
+    espejo += str[i];
+  };
+ return espejo.split(' ').reverse().join(' ');
 } 
 
 
@@ -130,7 +122,7 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  return arr.sort()
+  return arr.sort().reverse()
 }
 
 
