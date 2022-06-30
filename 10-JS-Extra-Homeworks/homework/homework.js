@@ -122,7 +122,19 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  return arr.sort().reverse() 
+    const array=[]
+
+    const orden=[]
+
+    for (let i = 0; i < arr.length; i++) {array.push( arr[i].length)}
+    
+    array.sort()
+
+    arr.filter((e,i)=>{if(e.length<= array[i]) {orden.push(e)}})
+
+    arr.filter((e,i)=>{if(e.length<= array[i] === false) {orden.push(e)}})
+  
+    return orden
 }
 
 
